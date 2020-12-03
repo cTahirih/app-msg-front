@@ -1,0 +1,37 @@
+.mt-4 {
+  margin-top: 1em;
+}
+
+.mr-4 {
+  margin-right: 1em;
+}
+
+.ant-form-item {
+  justify-content: center;
+}
+
+.ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper:focus,
+.ant-input:focus,
+.ant-input:hover {
+  border-color: #202d61;
+  box-shadow: 0 0 0 2px rgba(232,193,244, 0.2);
+}
+
+.ant-form-item div {
+  max-width: 100%;
+}
+
+.bg-blue {
+  background-color: transparent;
+  color: #202d61;
+  font-weight: bold;
+  border: 2px solid #202d61;
+}
+
+.bg-blue:hover {
+  background-color: #202d61;
+  color: #E8C1F4;
+  border-color: #202d61;
+}
+

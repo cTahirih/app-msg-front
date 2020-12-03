@@ -1,0 +1,48 @@
+.image-fluid {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-register {
+  line-height: 1;
+}
+
+.text-underline {
+  text-decoration: underline #202d61;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-left {
+  display: none;
+}
+
+.card-right-btm {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .card-left {
+    display: block;
+  }
+
+  .card-right-btm {
+    display: none;
+  }
+
+  .main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
