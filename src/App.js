@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 
 import Login from './modules/login';
 import Messenger from './modules/messenger';
+import PrivateRoute from './PrivateRoute';
 import './App.css';
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
         component={Login}
         exact
       />
-      <Route path='/messenger' component={Messenger}/>
+      <PrivateRoute exact path='/messenger' component={Messenger}/>
     </BrowserRouter>
   );
 }

@@ -27,7 +27,6 @@ const FormLogin = () => {
     })
       .then((resp) => {
         if (resp.errorManager && resp.errorManager.status === 200) {
-          console.log('succes', resp);
           localStorage.setItem('token', JSON.stringify(resp.data.accessToken));
           localStorage.setItem('user', JSON.stringify(resp.data.user))
           history.push('/messenger')

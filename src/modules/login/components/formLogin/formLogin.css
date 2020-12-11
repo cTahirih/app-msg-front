@@ -14,19 +14,6 @@
   max-width: 100%;
 }
 
-.bg-blue {
-  background-color: transparent;
-  color: #202d61;
-  font-weight: bold;
-  border: 2px solid #202d61;
-}
-
-.bg-blue:hover {
-  background-color: #202d61;
-  color: #E8C1F4;
-  border-color: #202d61;
-}
-
 .btn-social-media span {
   width: 30px;
 }

@@ -13,12 +13,10 @@ const Login = () => {
   };
 
   const handleOk = (e) => {
-    console.log(e);
     setShowModal(false);
   };
 
   const handleCancel = (e) => {
-    console.log(e);
     setShowModal(false);
   };
 

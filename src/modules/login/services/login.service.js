@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const LoginService = (data) => {
-  console.log(data);
   return axios.post('http://localhost:4000/login', data)
     .then(res => {
       return res.data

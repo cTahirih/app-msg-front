@@ -13,9 +13,17 @@
   align-items: center;
 }
 
+.chat-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
 @media (min-width: 768px) {
   .main-msg {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
